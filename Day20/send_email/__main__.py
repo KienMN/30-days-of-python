@@ -8,7 +8,7 @@ parser.add_argument('-id', '--user_id', type = int)
 parser.add_argument('-e', '--user_email', type = str)
 
 args = parser.parse_args()
-print(args)
+# print(args)
 # print(args.user_id)
 # print(args.user_email)
 # print(get_length_file())
