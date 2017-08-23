@@ -1,0 +1,8 @@
+pip3 install virtualenv		// install virtualenv
+
+virtualenv -p python3 scrape && cd scrape	// generate folder scrape
+
+source bin/activate			// execute
+
+pip install requests beautifulsoup4		// install requests, beautifulsoup4
+
